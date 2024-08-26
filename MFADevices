@@ -1,0 +1,3 @@
+PowerShell command to retrieve the list of devices on which a user has registered for MFA
+
+"Get-MsolUser -UserPrincipalName user@domain.com | Select-Object -ExpandProperty StrongAuthenticationMethods"
